@@ -16,7 +16,7 @@ var argv = require('yargs')
     })
     .option('l', {
         alias: 'local-host',
-        describe: 'Tunnel traffic to this host instead of localhost, override Host header to this host'
+        describe: 'Tunnel traffic to this host instead of localhost'
     })
     .options('o', {
         alias: 'open',
